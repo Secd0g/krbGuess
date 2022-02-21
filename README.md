@@ -13,5 +13,5 @@ Be careful not to run with to many threads and low timeouts as it will bring the
 The tool is written in Java and does not rely on any Kerberos libraries to perform the guessing. In order to successfully run the tool against a system it needs at least the realm, dictionary and a server parameters to be set. eg.
 
 ```
-java -jar krbguess.jar -s 192.168.56.11 -r HEMMA / -o report.txt -d ./dic.txt
+Java –jar kerbguess.jar –r [domain] –d [user list] –s [DC IP]
 ```
